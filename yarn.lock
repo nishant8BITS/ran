@@ -581,6 +581,13 @@
     "@babel/helper-regex" "7.0.0-beta.42"
     regexpu-core "^4.1.3"
 
+"@babel/polyfill@^7.0.0-beta.51":
+  version "7.0.0-beta.51"
+  resolved "https://registry.yarnpkg.com/@babel/polyfill/-/polyfill-7.0.0-beta.51.tgz#f880a16825571729dceeb76a9bbe74c06321e756"
+  dependencies:
+    core-js "^2.5.7"
+    regenerator-runtime "^0.11.1"
+
 "@babel/preset-env@7.0.0-beta.42":
   version "7.0.0-beta.42"
   resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.0.0-beta.42.tgz#671e688057c010b22a7811b965f7da5d79c472d3"
@@ -2053,6 +2060,10 @@ core-js@^2.5.3:
   version "2.5.6"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.5.6.tgz#0fe6d45bf3cac3ac364a9d72de7576f4eb221b9d"
 
+core-js@^2.5.7:
+  version "2.5.7"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.5.7.tgz#f972608ff0cead68b841a16a932d0b183791814e"
+
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
@@ -2837,10 +2848,11 @@ eslint-visitor-keys@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
 
-eslint-watch@3.1.4:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/eslint-watch/-/eslint-watch-3.1.4.tgz#76ae7a587e2100fa6c7cfc3753108f80880b3d16"
+eslint-watch@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-watch/-/eslint-watch-4.0.0.tgz#756031c8edcc02dd323c6d1677d2e528f4c076d6"
   dependencies:
+    "@babel/polyfill" "^7.0.0-beta.51"
     babel-polyfill "^6.20.0"
     bluebird "^3.5.1"
     chalk "^2.1.0"
